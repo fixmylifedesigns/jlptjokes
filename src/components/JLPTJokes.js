@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { SearchIcon, ArrowLeft, Star } from "lucide-react";
-import Logo from "./logo.jpg";
+import Logo from "./Logo.jpg";
 import Image from "next/image";
 import allJokes from './allJokes.json';
 
