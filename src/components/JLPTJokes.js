@@ -1,15 +1,23 @@
 "use client";
 
 import { useState } from "react";
-import { SearchIcon, ArrowLeft, Star } from "lucide-react";
-import Logo from "./Logo.jpg";
+import {
+  SearchIcon,
+  ArrowLeft,
+  Star,
+  AlertTriangle,
+  Megaphone,
+  X,
+} from "lucide-react";
+import Logo from "./newlogo.png";
 import Image from "next/image";
-import allJokes from './allJokes.json';
+import allJokes from "./allJokes.json";
 
 export default function JLPTJokes() {
   const [searchInput, setSearchInput] = useState("");
   const [searchResults, setSearchResults] = useState(null);
   const [activeTab, setActiveTab] = useState("featured");
+  const [hiddenMessages, setHiddenMessages] = useState([]);
 
   const handleInputChange = (e) => {
     const query = e.target.value.trim().toLowerCase();
@@ -43,17 +51,92 @@ export default function JLPTJokes() {
       : activeTab === "featured"
       ? allJokes.puns.filter((joke) => joke.featured)
       : activeTab === "newest"
-      ? allJokes.puns.filter(
-          (joke) => new Date(joke.date) >= ninetyDaysAgo
-        )
-      : allJokes.puns; // For the "All" tab
+      ? allJokes.puns.filter((joke) => new Date(joke.date) >= ninetyDaysAgo)
+      : allJokes.puns;
+
+  const alertMessages = allJokes.messages.filter(
+    (msg, index) =>
+      msg.display === "true" &&
+      msg.type === "Alert" &&
+      !hiddenMessages.includes(index)
+  );
+  const otherMessages = allJokes.messages.filter(
+    (msg, index) =>
+      msg.display === "true" &&
+      msg.type !== "Alert" &&
+      !hiddenMessages.includes(index)
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-red-50 to-white flex flex-col">
       <div className="bg-gradient-to-r from-red-600 to-red-800 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
+          {alertMessages.map((msg, index) => (
+            <div
+              key={index}
+              className="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-4 rounded-lg flex items-start"
+            >
+              <AlertTriangle className="w-6 h-6 mr-2 flex-shrink-0 mt-1" />
+              <div>
+                <p className="font-bold">{msg.message}</p>
+                <p className="mt-2">{msg.actionCall}</p>
+                <div className="mt-2 space-y-2">
+                  {msg.links.map((link, linkIndex) => (
+                    <a
+                      key={linkIndex}
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-red-600 hover:text-red-800 underline block"
+                    >
+                      {link.text}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <button
+                onClick={() => setHiddenMessages([...hiddenMessages, index])}
+                className="ml-auto p-1 hover:bg-red-200 rounded-full"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          ))}
+
+          {otherMessages.map((msg, index) => (
+            <div
+              key={index}
+              className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-4 rounded-lg flex items-start"
+            >
+              <Megaphone className="w-6 h-6 mr-2 flex-shrink-0 mt-1" />
+              <button
+                onClick={() => setHiddenMessages([...hiddenMessages, index])}
+                className="ml-auto p-1 hover:bg-blue-200 rounded-full"
+              >
+                <X className="w-4 h-4" />
+              </button>
+              <div>
+                <p className="font-bold">{msg.message}</p>
+                <p className="mt-2">{msg.actionCall}</p>
+                <div className="mt-2 space-y-2">
+                  {msg.links.map((link, linkIndex) => (
+                    <a
+                      key={linkIndex}
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 underline block"
+                    >
+                      {link.text}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+
           <h1 className="text-6xl font-bold mb-4 flex flex-row items-center gap-4 animate-bounce justify-center">
-            JLPT Jokes
+            {/* JLPT Jokes */}
             <div className="rounded-full border-2 border-black overflow-hidden w-24 h-24 relative">
               <Image
                 src={Logo}

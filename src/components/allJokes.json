@@ -1,201 +1,230 @@
 {
-    "puns": [
-      {
-        "english": "When did Japanese start eating eggs?",
-        "punchline": "A long たまご (tamago)",
-        "explanation": "たまご means egg, but when split it can sound like 'time ago'",
-        "featured": true,
-        "date": "2025-01-15"
-      },
-      {
-        "english": "What's dad's least favorite fruit?",
-        "punchline": "パパイヤ (papaya)",
-        "explanation": "パパイヤ sounds like パパ嫌 (papa iya - dad doesn't like it)",
-        "featured": false,
-        "date": "2024-04-10"
-      },
-      {
-        "english": "What do spiders taste like?",
-        "punchline": "すっぱいだ (suppai da)",
-        "explanation": "すっぱい means sour, but スパイダー (supaida) means spider",
-        "featured": true,
-        "date": "2024-07-20"
-      },
-      {
-        "english": "Why was the broom late to the meeting?",
-        "punchline": "はき忘れた (haki wasureta)",
-        "explanation": "はき means sweep, and はき忘れた sounds like 'forgot to sweep'",
-        "featured": false,
-        "date": "2024-05-15"
-      },
-      {
-        "english": "What did the bread say to the lazy baker?",
-        "punchline": "パンな (pan na)",
-        "explanation": "パン means bread, and パンな sounds like 'don’t loaf around'",
-        "featured": false,
-        "date": "2024-08-05"
-      },
-      {
-        "english": "What’s the dog’s favorite drink?",
-        "punchline": "ワンダフル (wan-dafuru)",
-        "explanation": "ワン is the sound a dog makes, and ワンダフル sounds like 'wonderful'",
-        "featured": false,
-        "date": "2024-06-10"
-      },
-      {
-        "english": "Why don’t cats like computers?",
-        "punchline": "にゃんともいえない (nyan-tomo ienai)",
-        "explanation": "にゃん is the sound a cat makes, and にゃんともいえない means 'I can't say anything about it'",
-        "featured": false,
-        "date": "2024-03-20"
-      },
-      {
-        "english": "Why was the sushi blushing?",
-        "punchline": "さけちゃった (sakechatta)",
-        "explanation": "さけ means salmon, and さけちゃった sounds like 'got embarrassed'",
-        "featured": false,
-        "date": "2024-10-05"
-      },
-      {
-        "english": "Why did the rice cooker bring a microphone?",
-        "punchline": "こめんトリー (komen-torii)",
-        "explanation": "こめ means rice, and コメントリー sounds like 'commentary'",
-        "featured": false,
-        "date": "2025-02-10"
-      },
-      {
-        "english": "What’s a cow’s favorite instrument?",
-        "punchline": "うしトロンボーン (ushi-trombone)",
-        "explanation": "うし means cow, and トロンボーン means trombone",
-        "featured": false,
-        "date": "2025-03-15"
-      },
-      {
-        "english": "Why did the musician go broke?",
-        "punchline": "おんがく (on gaku)",
-        "explanation": "おんがく means music, but can be split as おん (debt) and がく (amount)",
-        "featured": true,
-        "date": "2024-12-20"
-      },
-      {
-        "english": "Why did the tree start a blog?",
-        "punchline": "きになる (ki ni naru)",
-        "explanation": "き means tree, and きになる means 'to be curious'",
-        "featured": false,
-        "date": "2024-09-25"
-      },
-      {
-        "english": "What did the tomato say to the ketchup?",
-        "punchline": "トマれ！ (tomare)",
-        "explanation": "トマレ means stop, and トマト (tomato) sounds similar",
-        "featured": false,
-        "date": "2024-08-15"
-      },
-      {
-        "english": "Why are ghosts bad at lying?",
-        "punchline": "しょうじき (shoujiki)",
-        "explanation": "しょうじき means honesty, and しょうじき sounds like 'ghost truth'",
-        "featured": false,
-        "date": "2024-12-05"
-      },
-      {
-        "english": "What do you call a sad coffee cup?",
-        "punchline": "カップさい (kappusai)",
-        "explanation": "カップ means cup, and かっさい (kassai) means applause",
-        "featured": false,
-        "date": "2024-07-30"
-      },
-      {
-        "english": "Why did the chicken cross the playground?",
-        "punchline": "コケコッコー (kokekokko)",
-        "explanation": "コケコッコー is the sound of a rooster crowing, fitting for a joke",
-        "featured": false,
-        "date": "2025-03-01"
-      },
-      {
-        "english": "Why do scissors always win arguments?",
-        "punchline": "きる (kiru)",
-        "explanation": "きる means to cut, fitting for scissors cutting through arguments",
-        "featured": false,
-        "date": "2024-07-15"
-      },
-      {
-        "english": "Why did the mushroom get invited to all the parties?",
-        "punchline": "きのこ (kinoko)",
-        "explanation": "きのこ means mushroom, and also sounds like 'key to fun'",
-        "featured": false,
-        "date": "2024-11-05"
-      },
-      {
-        "english": "What’s a shoe’s favorite kind of joke?",
-        "punchline": "くつがえる (kutsugaeru)",
-        "explanation": "くつ means shoes, and くつがえる means 'to overturn'",
-        "featured": false,
-        "date": "2025-01-20"
-      },
-      {
-        "english": "Why did the envelope go to school?",
-        "punchline": "ふうとう (fuutou)",
-        "explanation": "ふうとう means envelope, and ふう sounds like 'fool'",
-        "featured": false,
-        "date": "2025-04-01"
-      },
-      {
-        "english": "What’s the tomato’s least favorite workout?",
-        "punchline": "ケチャップ (kechap)",
-        "explanation": "ケチャップ means ketchup, fitting for a lazy tomato",
-        "featured": false,
-        "date": "2024-02-13"
-      },
-      {
-        "english": "Why did the fish blush?",
-        "punchline": "おさかな (osakana)",
-        "explanation": "おさかな means fish, and おさか sounds like 'osaka'",
-        "featured": false,
-        "date": "2024-02-20"
-      },
-      {
-        "english": "Why was the phone always calm?",
-        "punchline": "でんわ (denwa)",
-        "explanation": "でんわ means phone, and でん sounds like 'zen'",
-        "featured": false,
-        "date": "2024-02-15"
-      },
-      {
-        "english": "Why was the teacher cross?",
-        "punchline": "せんせいのせい (sensei no sei)",
-        "explanation": "せんせい means teacher, and のせい means 'because of'",
-        "featured": false,
-        "date": "2024-02-12"
-      },
-      {
-        "english": "Why did the lantern go on a diet?",
-        "punchline": "あかるい (akarui)",
-        "explanation": "あかるい means bright, and あか (aka) means red, often used in lights",
-        "featured": false,
-        "date": "2024-02-10"
-      },
-      {
-        "english": "Why did the bread get fired?",
-        "punchline": "やきすぎた (yakisugita)",
-        "explanation": "やきすぎた means overcooked, perfect for burnt bread",
-        "featured": false,
-        "date": "2024-02-16"
-      },
-      {
-        "english": "Why did the artist break up with the canvas?",
-        "punchline": "えのぐ (enogu)",
-        "explanation": "えのぐ means paint, and it sounds like 'ain’t good'",
-        "featured": false,
-        "date": "2024-02-17"
-      },
-      {
-        "english": "What’s the baker’s favorite holiday?",
-        "punchline": "クリスマス (kurisumasu)",
-        "explanation": "クリスマス means Christmas, and クリ sounds like 'crust'",
-        "featured": false,
-        "date": "2024-02-19"
-      }
-    ]
-  }
-  
+  "messages": [
+    {
+      "type": "Alert",
+      "message": "Our Original instagram account was hacked a few months back and we have not been able to get it back. The people that hacked the account or now using it to post stolen content from other creators in Japan.",
+      "actionCall": "If you love Japan and the people that take their time to create videos about it, please report @jlptjokes on instagram.",
+      "display": "true",
+      "links": [
+        {
+          "text": "Report the account for imperonating your favorite japanese content creator!",
+          "link": "https://www.instagram.com/jlptjokes"
+        }
+      ]
+    },
+    {
+      "type": "ad",
+      "message": "Follow",
+      "actionCall": "If you love Japan and the people that take their time to create videos about it, please report @jlptjokes on instagram.",
+      "display": "false",
+      "links": [
+        {
+          "text": "Follow our new and offical Account @jlptjokesoffical",
+          "link": "https://www.instagram.com/jlptjokesoffical"
+        },
+        {
+          "text": "Follow our backup account @jlptjoke",
+          "link": "https//www.instagram.com/jlptjoke"
+        }
+      ]
+    }
+  ],
+  "puns": [
+    {
+      "english": "When did Japanese start eating eggs?",
+      "punchline": "A long たまご (tamago)",
+      "explanation": "たまご means egg, but when split it can sound like 'time ago'",
+      "featured": true,
+      "date": "2025-01-15"
+    },
+    {
+      "english": "What's dad's least favorite fruit?",
+      "punchline": "パパイヤ (papaya)",
+      "explanation": "パパイヤ sounds like パパ嫌 (papa iya - dad doesn't like it)",
+      "featured": false,
+      "date": "2024-04-10"
+    },
+    {
+      "english": "What do spiders taste like?",
+      "punchline": "すっぱいだ (suppai da)",
+      "explanation": "すっぱい means sour, but スパイダー (supaida) means spider",
+      "featured": true,
+      "date": "2024-07-20"
+    },
+    {
+      "english": "Why was the broom late to the meeting?",
+      "punchline": "はき忘れた (haki wasureta)",
+      "explanation": "はき means sweep, and はき忘れた sounds like 'forgot to sweep'",
+      "featured": false,
+      "date": "2024-05-15"
+    },
+    {
+      "english": "What did the bread say to the lazy baker?",
+      "punchline": "パンな (pan na)",
+      "explanation": "パン means bread, and パンな sounds like 'don’t loaf around'",
+      "featured": false,
+      "date": "2024-08-05"
+    },
+    {
+      "english": "What’s the dog’s favorite drink?",
+      "punchline": "ワンダフル (wan-dafuru)",
+      "explanation": "ワン is the sound a dog makes, and ワンダフル sounds like 'wonderful'",
+      "featured": false,
+      "date": "2024-06-10"
+    },
+    {
+      "english": "Why don’t cats like computers?",
+      "punchline": "にゃんともいえない (nyan-tomo ienai)",
+      "explanation": "にゃん is the sound a cat makes, and にゃんともいえない means 'I can't say anything about it'",
+      "featured": false,
+      "date": "2024-03-20"
+    },
+    {
+      "english": "Why was the sushi blushing?",
+      "punchline": "さけちゃった (sakechatta)",
+      "explanation": "さけ means salmon, and さけちゃった sounds like 'got embarrassed'",
+      "featured": false,
+      "date": "2024-10-05"
+    },
+    {
+      "english": "Why did the rice cooker bring a microphone?",
+      "punchline": "こめんトリー (komen-torii)",
+      "explanation": "こめ means rice, and コメントリー sounds like 'commentary'",
+      "featured": false,
+      "date": "2025-02-10"
+    },
+    {
+      "english": "What’s a cow’s favorite instrument?",
+      "punchline": "うしトロンボーン (ushi-trombone)",
+      "explanation": "うし means cow, and トロンボーン means trombone",
+      "featured": false,
+      "date": "2025-03-15"
+    },
+    {
+      "english": "Why did the musician go broke?",
+      "punchline": "おんがく (on gaku)",
+      "explanation": "おんがく means music, but can be split as おん (debt) and がく (amount)",
+      "featured": true,
+      "date": "2024-12-20"
+    },
+    {
+      "english": "Why did the tree start a blog?",
+      "punchline": "きになる (ki ni naru)",
+      "explanation": "き means tree, and きになる means 'to be curious'",
+      "featured": false,
+      "date": "2024-09-25"
+    },
+    {
+      "english": "What did the tomato say to the ketchup?",
+      "punchline": "トマれ！ (tomare)",
+      "explanation": "トマレ means stop, and トマト (tomato) sounds similar",
+      "featured": false,
+      "date": "2024-08-15"
+    },
+    {
+      "english": "Why are ghosts bad at lying?",
+      "punchline": "しょうじき (shoujiki)",
+      "explanation": "しょうじき means honesty, and しょうじき sounds like 'ghost truth'",
+      "featured": false,
+      "date": "2024-12-05"
+    },
+    {
+      "english": "What do you call a sad coffee cup?",
+      "punchline": "カップさい (kappusai)",
+      "explanation": "カップ means cup, and かっさい (kassai) means applause",
+      "featured": false,
+      "date": "2024-07-30"
+    },
+    {
+      "english": "Why did the chicken cross the playground?",
+      "punchline": "コケコッコー (kokekokko)",
+      "explanation": "コケコッコー is the sound of a rooster crowing, fitting for a joke",
+      "featured": false,
+      "date": "2025-03-01"
+    },
+    {
+      "english": "Why do scissors always win arguments?",
+      "punchline": "きる (kiru)",
+      "explanation": "きる means to cut, fitting for scissors cutting through arguments",
+      "featured": false,
+      "date": "2024-07-15"
+    },
+    {
+      "english": "Why did the mushroom get invited to all the parties?",
+      "punchline": "きのこ (kinoko)",
+      "explanation": "きのこ means mushroom, and also sounds like 'key to fun'",
+      "featured": false,
+      "date": "2024-11-05"
+    },
+    {
+      "english": "What’s a shoe’s favorite kind of joke?",
+      "punchline": "くつがえる (kutsugaeru)",
+      "explanation": "くつ means shoes, and くつがえる means 'to overturn'",
+      "featured": false,
+      "date": "2025-01-20"
+    },
+    {
+      "english": "Why did the envelope go to school?",
+      "punchline": "ふうとう (fuutou)",
+      "explanation": "ふうとう means envelope, and ふう sounds like 'fool'",
+      "featured": false,
+      "date": "2025-04-01"
+    },
+    {
+      "english": "What’s the tomato’s least favorite workout?",
+      "punchline": "ケチャップ (kechap)",
+      "explanation": "ケチャップ means ketchup, fitting for a lazy tomato",
+      "featured": false,
+      "date": "2024-02-13"
+    },
+    {
+      "english": "Why did the fish blush?",
+      "punchline": "おさかな (osakana)",
+      "explanation": "おさかな means fish, and おさか sounds like 'osaka'",
+      "featured": false,
+      "date": "2024-02-20"
+    },
+    {
+      "english": "Why was the phone always calm?",
+      "punchline": "でんわ (denwa)",
+      "explanation": "でんわ means phone, and でん sounds like 'zen'",
+      "featured": false,
+      "date": "2024-02-15"
+    },
+    {
+      "english": "Why was the teacher cross?",
+      "punchline": "せんせいのせい (sensei no sei)",
+      "explanation": "せんせい means teacher, and のせい means 'because of'",
+      "featured": false,
+      "date": "2024-02-12"
+    },
+    {
+      "english": "Why did the lantern go on a diet?",
+      "punchline": "あかるい (akarui)",
+      "explanation": "あかるい means bright, and あか (aka) means red, often used in lights",
+      "featured": false,
+      "date": "2024-02-10"
+    },
+    {
+      "english": "Why did the bread get fired?",
+      "punchline": "やきすぎた (yakisugita)",
+      "explanation": "やきすぎた means overcooked, perfect for burnt bread",
+      "featured": false,
+      "date": "2024-02-16"
+    },
+    {
+      "english": "Why did the artist break up with the canvas?",
+      "punchline": "えのぐ (enogu)",
+      "explanation": "えのぐ means paint, and it sounds like 'ain’t good'",
+      "featured": false,
+      "date": "2024-02-17"
+    },
+    {
+      "english": "What’s the baker’s favorite holiday?",
+      "punchline": "クリスマス (kurisumasu)",
+      "explanation": "クリスマス means Christmas, and クリ sounds like 'crust'",
+      "featured": false,
+      "date": "2024-02-19"
+    }
+  ]
+}
